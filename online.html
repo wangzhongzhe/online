@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>线上赛web</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="online.css" />
+<script Language="JavaScript" src="online.js"> 
+</script>
+<script Language="JavaScript" src="jquery.js"> 
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+        $("button").click(function(){
+            $(".img").first().css("border","1px solid yellow");
+  });
+});
+</script>
+</head>
+
+<body>
+<header class="logo">
+    <img src="images/images/logo.png" width="7%"/>
+</header>
+<div class="mi">
+<div class="guide">
+    <ul class="work_1">
+		<li class="li_indent"><a href="" target="_blank">首页<br />HOME</a></li>
+		<li class="li_indent"><a href="" target="_blank">赛事简介<br />IMFORMATION</a></li>
+		<li class="li_indent"><a href="" target="_blank">参赛报名<br />SING UP</a></li>
+		<li class="li_indent"><a href="" target="_blank">论坛讨论<br />BSS</a></li>
+		<li class="li_indent"><a href="" target="_blank">城市校园赛<br />OFFLINE</a></li>
+		<li class="li_indent"><a href="" target="_blank">全国总决赛<br />FINALS</a></li>
+		<li class="li_indent"><a id="li_indent" href="" target="_blank" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">有奖线上赛<br />ONLINE</a></li>
+	</ul>
+</div>
+<div class="Lottery_big">
+	<div class="hold_1">
+	    <div class="Lottery_1">
+		    <a id="color_1" href="" target="_blank"><strong>每日抽奖</strong></a>
+		    <div class="border_1">
+	     	</div>
+     	</div>
+	    <div class="Lottery_2">
+		    <a id="color_2" href="" target="_blank"><strong>线上竞技</strong></a>
+		    <div class="border_2">
+	    	</div>
+	    </div>
+	</div>
+	<div class="hold_2">
+		<div class="hold_2_1">
+			king，你好！<a id="li_indent" href="" target="_blank" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">绑定手机号</a>&nbsp;&nbsp;
+			<a id="li_indent" href="" target="_blank" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">退出</a><br />
+			<br />当前金币：98374
+			<div class="hold_2_1_1"><a id="li_indent" href="" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">赚金币>></a></div>
+		</div>
+		<div class="hold_2_2">
+			<div class="hold_2_2_1" id="picture">
+			    <div class="img"><img src="images/images/prize/prize_00.jpg" width="120px" height="100px"/></div>
+			    <div class="img"><img src="images/images/prize/prize_01.jpg" width="120px" height="100px" /></div>
+			    <div class="img"><img src="images/images/prize/prize_02.jpg" width="120px" height="100px" /></div>
+			    <div class="img"><img src="images/images/prize/prize_03.jpg" width="120px" height="100px" /></div>
+			    <div><a href="" class="ck" onClick="change()"><img name="p" src="images/images/draw_btn.png" width="110px" height="80px" /></a></div>
+			    <div class="img"><img src="images/images/prize/prize_04.jpg" width="120px" height="100px" /></div>
+			    <div class="img"><img src="images/images/prize/prize_05.jpg" width="120px" height="100px" /></div>
+			    <div class="img"><img src="images/images/prize/prize_06.jpg" width="120px" height="100px" /></div>
+			    <div class="img"><img src="images/images/prize/prize_07.jpg" width="120px" height="100px" /></div>
+			</div>
+		</div>
+		<div>
+			<from>
+				<input class="submit_1" type="button" value="抽奖规则" onClick="rule()"/>
+			</from>
+		</div>
+	</div>
+	<div class="hold_3">
+		<div class="hold_3_1">
+			<strong>我的奖品<strong>
+		</div>
+		<div class="hold_3_2">
+			<ul class="work_2">
+				<li class="place">
+					<div class="hold_3_2_1">
+					    <img src="images/images/prize/prize_00.jpg" width="90px;" height="65px"/>
+					</div>
+				    <div class="hold_3_2_2">
+				    	2元Q币
+				    </div>
+				    <div class="hold_3_2_3">
+				    	中奖日期：2016-4-9
+				    </div>
+				    <div>
+				    	<form action="">
+				    		<input class="submit_2" type="button" name="去领奖" value="去领奖">
+				    	</form>
+				    </div>
+				</li>
+				<li class="place">
+					<div class="hold_3_2_1">
+					    <img src="images/images/prize/prize_00.jpg" width="90px;" height="65px"/>
+					</div>
+				    <div class="hold_3_2_2">
+				    	2元Q币
+				    </div>
+				    <div class="hold_3_2_3">
+				    	中奖日期：2016-4-9
+				    </div>
+				    <div>
+				    	<form action="">
+				    		<input class="submit_2" type="button" name="去领奖" value="去领奖">
+				    	</form>
+				    </div>
+				</li>
+				<li class="place">
+					<div class="hold_3_2_1">
+					    <img src="images/images/prize/prize_00.jpg" width="90px;" height="65px"/>
+					</div>
+				    <div class="hold_3_2_2">
+				    	2元Q币
+				    </div>
+				    <div class="hold_3_2_3">
+				    	中奖日期：2016-4-9
+				    </div>
+				    <div>
+				    	<form action="">
+				    		<input class="submit_2" type="button" name="去领奖" value="去领奖">
+				    	</form>
+				    </div>
+				</li>
+				<li class="place">
+					<div class="hold_3_2_1">
+					    <img src="images/images/prize/prize_00.jpg" width="90px;" height="65px"/>
+					</div>
+				    <div class="hold_3_2_2">
+				    	2元Q币
+				    </div>
+				    <div class="hold_3_2_3">
+				    	中奖日期：2016-4-9
+				    </div>
+				    <div>
+				    	<form action="">
+				    		<input class="submit_2" type="button" name="去领奖" value="去领奖">
+				    	</form>
+				    </div>
+				</li>
+				<li class="place">
+					<div class="hold_3_2_1">
+					    <img src="images/images/prize/prize_00.jpg" width="90px;" height="65px"/>
+					</div>
+				    <div class="hold_3_2_2">
+				    	2元Q币
+				    </div>
+				    <div class="hold_3_2_3">
+				    	中奖日期：2016-4-9
+				    </div>
+				    <div>
+				    	<form action="">
+				    		<input class="submit_2" type="button" name="去领奖" value="去领奖">
+				    	</form>
+				    </div>
+				</li>
+				<li class="place">
+					<div class="hold_3_2_1">
+					    <img src="images/images/prize/prize_00.jpg" width="90px;" height="65px"/>
+					</div>
+				    <div class="hold_3_2_2">
+				    	2元Q币
+				    </div>
+				    <div class="hold_3_2_3">
+				    	中奖日期：2016-4-9
+				    </div>
+				    <div>
+				    	<form action="">
+				    		<input class="submit_2" type="button" name="去领奖" value="去领奖">
+				    	</form>
+				    </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div style="clear:both"></div>
+<div id="light" class="white_content">
+    <div class="rule_1">
+    	<div class="rule_1_1">
+    		抽奖规则
+    	</div>
+    	<div class="rule_1_2">
+    		<a href=""><img src="images/images/close.jpg" width="22px" height="22px" /></a>
+    	</div>
+    </div>
+    <div class="rule_2">
+    	<p>1、玩家注册登录后即可参与，每天第一次抽奖免费，第二次开始抽奖需消耗50金币。中奖内容为爱游戏金币、Q币、游戏周边随机。<p>
+    	<p>2、当玩家金币足额不足，则可通过在门户金币中心完成金币任务来获取金币。金币配置内容包括：首次注册、每日签到、下载爱游戏客户端、下载EFUN参赛游戏、访问EFUN专区等等。</p>
+    </div>
+</div>
+<div id="fade" class="black_overlay"> 
+</div>
+<footer>Copyright &copy; 2009-2014 炫彩酷动版权所有</footer>
+</body>
+</html>
