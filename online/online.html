@@ -5,16 +5,9 @@
 <title>线上赛web</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="online.css" />
-<script Language="JavaScript" src="online.js"> 
+<script type="text/javascript" src="jquery.js">
 </script>
-<script Language="JavaScript" src="jquery.js"> 
-</script>
-<script type="text/javascript">
-	$(document).ready(function(){
-        $("button").click(function(){
-            $(".img").first().css("border","1px solid yellow");
-  });
-});
+<script type="text/javascript" src="online.js"> 
 </script>
 </head>
 
@@ -31,45 +24,45 @@
 		<li class="li_indent"><a href="" target="_blank">论坛讨论<br />BSS</a></li>
 		<li class="li_indent"><a href="" target="_blank">城市校园赛<br />OFFLINE</a></li>
 		<li class="li_indent"><a href="" target="_blank">全国总决赛<br />FINALS</a></li>
-		<li class="li_indent"><a id="li_indent" href="" target="_blank" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">有奖线上赛<br />ONLINE</a></li>
+		<li class="li_indent"><a id="li_indent" href="" target="_blank" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">有奖线上赛<br />ONLINE</a></li>
 	</ul>
 </div>
 <div class="Lottery_big">
 	<div class="hold_1">
 	    <div class="Lottery_1">
-		    <a id="color_1" href="" target="_blank"><strong>每日抽奖</strong></a>
+		    <a id="color_1" href=""><strong>每日抽奖</strong></a>
 		    <div class="border_1">
 	     	</div>
      	</div>
 	    <div class="Lottery_2">
-		    <a id="color_2" href="" target="_blank"><strong>线上竞技</strong></a>
+		    <a id="color_2" href="online_play.html"><strong>线上竞技</strong></a>
 		    <div class="border_2">
 	    	</div>
 	    </div>
 	</div>
 	<div class="hold_2">
 		<div class="hold_2_1">
-			king，你好！<a id="li_indent" href="" target="_blank" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">绑定手机号</a>&nbsp;&nbsp;
-			<a id="li_indent" href="" target="_blank" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">退出</a><br />
+			king，你好！<a id="li_indent" href="" target="_blank" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">绑定手机号</a>&nbsp;&nbsp;
+			<a id="li_indent" href="" target="_blank" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">退出</a><br />
 			<br />当前金币：98374
-			<div class="hold_2_1_1"><a id="li_indent" href="" onMouseOver="this.style.textDecoration='underline'" onMouseOut="this.style.textDecoration='none'">赚金币>></a></div>
+			<div class="hold_2_1_1"><a id="li_indent" href="" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">赚金币>></a></div>
 		</div>
 		<div class="hold_2_2">
 			<div class="hold_2_2_1" id="picture">
-			    <div class="img"><img src="images/images/prize/prize_00.jpg" width="120px" height="100px"/></div>
+			    <div class="img item_chose"><img src="images/images/prize/prize_00.jpg" width="120px" height="100px"/></div>
 			    <div class="img"><img src="images/images/prize/prize_01.jpg" width="120px" height="100px" /></div>
 			    <div class="img"><img src="images/images/prize/prize_02.jpg" width="120px" height="100px" /></div>
 			    <div class="img"><img src="images/images/prize/prize_03.jpg" width="120px" height="100px" /></div>
-			    <div><a href="" class="ck" onClick="change()"><img name="p" src="images/images/draw_btn.png" width="110px" height="80px" /></a></div>
+			    <div><button class="draw_btn"><img src="images/images/draw_btn.png" width="108px" height="78px" /></button></div>
 			    <div class="img"><img src="images/images/prize/prize_04.jpg" width="120px" height="100px" /></div>
-			    <div class="img"><img src="images/images/prize/prize_05.jpg" width="120px" height="100px" /></div>
 			    <div class="img"><img src="images/images/prize/prize_06.jpg" width="120px" height="100px" /></div>
+			    <div class="img"><img src="images/images/prize/prize_05.jpg" width="120px" height="100px" /></div>
 			    <div class="img"><img src="images/images/prize/prize_07.jpg" width="120px" height="100px" /></div>
-			</div>
+			</div> 
 		</div>
 		<div>
 			<from>
-				<input class="submit_1" type="button" value="抽奖规则" onClick="rule()"/>
+				<input class="submit_1" type="button" value="抽奖规则" onclick="rule()"/>
 			</from>
 		</div>
 	</div>

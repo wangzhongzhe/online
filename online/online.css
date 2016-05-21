@@ -118,10 +118,10 @@ li a{
 .hold_2_1_1{
 	font-size: 8px;
 	position: relative;
-	left: 350px;
+	left: 360px;
 }
 .hold_2_2{
-	width: 400px;
+	width: 410px;
 	height: 350px;
 	background:rgba(255,255,255,0.3)!important;
 	filter: alpha(opacity=50);
@@ -133,10 +133,10 @@ li a{
 	position: relative;
 	left: 3px;
 }
-.ck{
+.draw_btn{
 	float: left;
 	position: relative;
-	top: 3px;
+	top: 4px;
 	width:110px;
 	height:80px;
 	margin: 10px;
@@ -147,7 +147,7 @@ li a{
 	height:100px;
 	float:left;
 	margin:4px;
-	border:1px solid rgba(255,255,255,0.3);
+	border:2px solid rgba(255,255,255,0.3);
 }
 .submit_1{
    float: right;
@@ -273,4 +273,6 @@ footer{
 	font-size: 8px;
 	padding: 12px;
 }
-
+.item_chose{
+	border: 2px solid yellow;
+}
